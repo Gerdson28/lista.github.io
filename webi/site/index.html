@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <!-- Define o conjunto de caracteres como UTF-8, garantindo suporte a caracteres especiais -->
+    <meta charset="UTF-8" />
+    
+    <!-- Define compatibilidade com o navegador Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Define o comportamento de escala em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Título da página que aparece na aba do navegador -->
+    <title>cadastro</title>
+</head>
+<body>
+    <!-- Contêiner principal que segura o formulário e é estilizado pelo Bootstrap -->
+    <div class="container formulario-bootstrap">
+        <div>
+            <!-- Cabeçalho do formulário -->
+            <h1>Cadastro</h1>
+            
+            <!-- Rótulo para o campo de e-mail -->
+            <label>Email</label>
+            
+            <!-- Campo de entrada para o e-mail, com classe e ID para identificação -->
+            <input type="email" class="form-control" id="email" placeholder="seu@email.com">
+            
+            <label>Senha</label>
+            <!-- Campo de entrada para a senha, com classes e ID para identificação -->
+            <input type="password" class="form-control" id="senha" placeholder="cadastre sua senha">
+
+            <!-- Div que contém o botão de cadastro, estilizado para preencher a largura disponível -->
+            <div class="d-grid gap-2">
+                <!-- Botão de cadastro que aciona a função JavaScript "cadastrar()" ao ser clicado -->
+                <button onclick="cadastrar()" class="btn btn-info butao-sucesses" type="button">Cadastrar</button>
+            </div>
+        <div>
+            <button onclick="log()" class="btn btn-info butao-sucesses" type="button">login</button>      
+            
+<script>
+function log() {
+    window.location.href = "login.html";
+}
+</script>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link para o arquivo CSS do Bootstrap 5.0.2, utilizado para estilização -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- Inclusão do bundle de JavaScript do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+    <!-- Inclusão do Popper.js (utilizado em componentes como dropdowns e tooltips do Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    
+    <!-- Outro arquivo de JavaScript do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    
+    <!-- Link para o arquivo CSS personalizado (cadastro.css) para estilizações adicionais -->
+    <link rel="stylesheet" href="cadastro.css" />
+    <link rel="stylesheet" href="login.css" />
+    <!-- Inclusão do SDK do Firebase (versão 3.7.4) para uso de serviços como autenticação ou banco de dados -->
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+    
+    <!-- Link para o arquivo JavaScript personalizado (cadastro.js) para lidar com a lógica do cadastro -->
+    <script src="cadastro.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"); /* Importa a fonte "Inter" do Google Fonts */
+
+* {
+    margin: 0; /* Remove margens padrão de todos os elementos */
+    padding: 0; /* Remove preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui bordas e preenchimentos nas dimensões totais dos elementos */
+    font-family: "Inter", sans-serif; /* Define a fonte padrão como "Inter" */
+}
+
+body {
+    background-image: url(imagem/img/blue.jpg); /* Define uma imagem de fundo para o corpo da página */
+}
+
+main {
+    padding: 30px; /* Adiciona preenchimento ao redor do conteúdo principal */
+    user-select: none; /* Impede a seleção de texto pelo usuário */
+}
+
+header > span {
+    font-size: 0.85rem; /* Define o tamanho da fonte do texto no cabeçalho */
+    font-weight: 700; /* Define o peso da fonte como negrito */
+    color: #6b778c; /* Define a cor do texto */
+    letter-spacing: 0.02rem; /* Adiciona espaçamento entre letras */
+}
+
+header > h1 {
+    color: #e3e9f5; /* Define a cor do título principal */
+    font-size: 2rem; /* Define o tamanho da fonte do título */
+    font-weight: 600; /* Define um peso da fonte mais leve que negrito */
+    margin-top: 5px; /* Adiciona uma margem acima do título */
+}
+
+.columns {
+    display: flex; /* Exibe as colunas em um layout flexível */
+    gap: 15px; /* Adiciona espaçamento entre as colunas */
+    margin-top: 50px; /* Adiciona uma margem acima do conjunto de colunas */
+}
+
+.column {
+    width: 100%; /* Define a largura da coluna como 100% do contêiner pai */
+    height: 100dvh; /* Define a altura da coluna com base na altura da viewport */
+    border-radius: 8px; /* Adiciona bordas arredondadas às colunas */
+    background-color: rgba(178, 167, 224, 0.603); /* Define uma cor de fundo com opacidade */
+}
+
+.column__title {
+    color: #e3e9f5; /* Define a cor do título da coluna */
+    font-size: 0.9rem; /* Define o tamanho da fonte do título da coluna */
+    font-weight: 700; /* Define o peso da fonte como negrito */
+    margin: 20px; /* Adiciona margem ao redor do título */
+}
+
+.column__cards {
+    padding: 4px; /* Adiciona preenchimento ao redor dos cartões na coluna */
+    height: 100%; /* Define a altura da seção de cartões como 100% da coluna */
+    border-radius: 5px; /* Adiciona bordas arredondadas à seção de cartões */
+    background-color: rgba(226, 225, 231, 0.603); /* Define uma cor de fundo com opacidade */
+}
+
+.card {
+    width: 100%; /* Define a largura do cartão como 100% do contêiner pai */
+    min-height: 70px; /* Define uma altura mínima para o cartão */
+    background-color: #fff; /* Define a cor de fundo do cartão como branco */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao cartão */
+    border: 1px solid #dfe1e6; /* Adiciona uma borda leve ao cartão */
+    box-shadow: 0 2px 2px #dfe1e6; /* Adiciona uma sombra ao cartão */
+    padding: 12px 14px; /* Adiciona preenchimento interno ao cartão */
+    font-size: 0.9rem; /* Define o tamanho da fonte do texto dentro do cartão */
+    font-weight: 500; /* Define um peso da fonte médio */
+    color: #4d5c76; /* Define a cor do texto dentro do cartão */
+    margin-bottom: 5px; /* Adiciona uma margem inferior ao cartão */
+}
+
+.column--highlight {
+    background-color: #deebff; /* Define uma cor de fundo quando a coluna está destacada */
+    border: 2px solid #2482ff; /* Adiciona uma borda azul quando a coluna está destacada */
+}

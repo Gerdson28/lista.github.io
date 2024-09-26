@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!-- Declara que este documento é um HTML5 -->
+<html lang="en"> <!-- Define a linguagem do documento como inglês -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a viewport para responsividade -->
+    <link rel="stylesheet" href="estilo.css"> <!-- Link para o arquivo de estilos CSS -->
+    <title>Meu quadro</title> <!-- Título da página exibido na aba do navegador -->
+</head>
+<body>
+
+    <main> <!-- Elemento principal que contém o conteúdo da página -->
+        <header> <!-- Cabeçalho da página -->
+            <span>PROJETOS / GC</span> <!-- Texto informativo sobre o projeto -->
+            <h1>QUADRO</h1> <!-- Título principal da aplicação -->
+        </header>
+
+        <section class="columns"> <!-- Seção que contém as colunas do quadro -->
+            <section class="column"> <!-- Coluna para "PENDÊNCIA" -->
+                <h2 class="column__title">PENDÊNCIA</h2> <!-- Título da coluna -->
+                <section class="column__cards"></section> <!-- Seção para os cartões nesta coluna -->
+            </section>
+
+            <section class="column"> <!-- Coluna para "EM PROGRESSO" -->
+                <h2 class="column__title">EM PROGRESSO </h2> <!-- Título da coluna -->
+                <section class="column__cards"></section> <!-- Seção para os cartões nesta coluna -->
+            </section>
+
+            <section class="column"> <!-- Coluna para "PARA REVISAR" -->
+                <h2 class="column__title">PARA REVISAR</h2> <!-- Título da coluna -->
+                <section class="column__cards"></section> <!-- Seção para os cartões nesta coluna -->
+            </section>
+
+            <section class="column"> <!-- Coluna para "CONCLUÍDO" -->
+                <h2 class="column__title">CONCLUÍDO</h2> <!-- Título da coluna -->
+                <section class="column__cards"></section> <!-- Seção para os cartões nesta coluna -->
+            </section>
+        </section>
+    </main>
+
+    <script src="estrutura.js"></script> <!-- Link para o arquivo JavaScript que contém a lógica da aplicação -->
+</body>
+</html>

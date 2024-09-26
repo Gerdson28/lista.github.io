@@ -1,0 +1,76 @@
+/* Estilos aplicados ao elemento <body> da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/site/imagem/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+}
+
+/* Estilos aplicados ao formulário */
+form {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* Estilos aplicados ao cabeçalho h1 */
+h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Adiciona margem inferior */
+}
+
+/* Estilos para os campos do formulário */
+.form-field {
+    margin-top: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Faz os campos ocuparem 100% da largura do formulário */
+    height: 50px;
+    padding: 10px; /* Adiciona espaçamento interno */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 5px; /* Arredonda os cantos dos campos */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estilos para as mensagens de erro */
+.error {
+    color: red; /* Define a cor das mensagens de erro como vermelha */
+    font-size: 12px; /* Define o tamanho da fonte das mensagens de erro */
+    display: none; /* Inicialmente, oculta as mensagens de erro */
+}
+
+/* Estilos aplicados aos botões */
+button {
+    width: 100%; /* Faz os botões ocuparem 100% da largura do formulário */
+    height: 50px;
+    margin-top: 20px;
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Arredonda os cantos dos botões */
+    font-size: 16px; /* Define o tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+}
+
+.solid {
+    background-color: #0dcaf0; /* Cor de fundo azul claro */
+    color: #000; /* Cor do texto preto */
+}
+
+.outline {
+    background-color: #0dcaf0; /* Fundo transparente */
+    border: 2px solid #000000; /* Borda azul claro */
+    color: #0dcaf0; /* Cor do texto azul claro */
+}
+
+/* Adiciona um efeito de transição aos botões */
+button:hover {
+    opacity: 0.9; /* Leve efeito ao passar o mouse */
+}

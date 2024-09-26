@@ -1,0 +1,62 @@
+/* Estilos aplicados ao elemento <body> da página */
+body {
+    display: flex; /* Define o layout como flexível, para centralizar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    min-height: 100vh; /* Define a altura mínima como 100% da altura da tela (viewport) */
+    
+    /* Define uma imagem de fundo */
+    background-image: url(/site/imagem/bg.jpg);
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+}
+
+/* Estilos aplicados à classe "formulario-bootstrap" para o contêiner do formulário */
+.formulario-bootstrap {
+    width: 400px; /* Define a largura do formulário */
+    background-color: rgba(255, 255, 255, 0.8); /* Define um fundo branco com opacidade */
+    padding: 30px; /* Adiciona espaçamento interno */
+    border-radius: 15px; /* Arredonda os cantos do contêiner */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra para criar profundidade */
+    margin-top: 20px; /* Adiciona margem superior */
+    backdrop-filter: blur(10px); /* Aplica um efeito de desfoque no fundo atrás do formulário */
+}
+
+/* Estilos aplicados à classe "email-class", usada em campos de e-mail */
+.email-class {
+    margin-top: 30px; /* Adiciona espaçamento superior */
+}
+
+/* Estilos aplicados à classe "ajustando-text-area" */
+.ajustando-text-area {
+    margin-top: 30px; /* Adiciona espaçamento superior */
+}
+
+/* Estilos aplicados à classe "butao-sucesses", usada para o botão de sucesso */
+.butao-sucesses {
+    margin-top: 40px; /* Adiciona espaçamento superior */
+    height: 50px; /* Define a altura do botão */
+}
+
+/* Estilos aplicados à classe "form-control" */
+.form-control {
+    height: 50px; /* Define a altura dos campos do formulário */
+}
+
+/* Estilos aplicados à classe "btn-info", usada para botões com fundo azul claro */
+.btn-info {
+    color: #000; /* Define a cor do texto como preto */
+    background-color: #0dcaf0; /* Define a cor de fundo azul claro */
+    border-color: #0dcaf0; /* Define a cor da borda como azul claro */
+}
+
+/* Estilos aplicados ao cabeçalho h1 */
+h1 {
+    text-align: center; /* Centraliza o texto do título */
+}
+
+/* Estilos aplicados ao elemento <label> */
+label {
+    cursor: default; /* Define o cursor como padrão, evitando o cursor de seleção */
+}
+

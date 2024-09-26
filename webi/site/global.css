@@ -1,0 +1,35 @@
+button {
+    cursor: pointer; /* Altera o cursor para um ponteiro ao passar sobre o botão, indicando que é clicável */
+}
+
+button:active {
+    opacity: 0.8; /* Reduz a opacidade do botão quando ele é clicado (estado ativo) */
+}
+
+button[disabled] {
+    opacity: 0.8; /* Reduz a opacidade do botão quando está desativado, indicando que não é interativo */
+}
+
+.clear {
+    background: transparent; /* Define o fundo como transparente para o botão */
+    border: none; /* Remove a borda do botão */
+    color: white; /* Define a cor do texto como branco */
+}
+
+.solid {
+    background: #0dcaf0; /* Define um fundo azul claro para o botão */
+    border: none; /* Remove a borda do botão */
+    color: rgb(0, 0, 0); /* Define a cor do texto como preto */
+}
+
+.outline {
+    background: #0dcaf0; /* Define um fundo azul claro para o botão */
+    color: #000000; /* Define a cor do texto como preto */
+    border: 1px solid #0dcaf0; /* Adiciona uma borda azul clara ao botão */
+}
+
+.error {
+    background: red; /* Define um fundo vermelho para o elemento */
+    color: white; /* Define a cor do texto como branco */
+    display: none; /* Inicialmente oculta o elemento (não exibido na página) */
+}
